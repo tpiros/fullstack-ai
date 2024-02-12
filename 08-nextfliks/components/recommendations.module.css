@@ -1,0 +1,35 @@
+.youMayBeInterestedIn {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.youMayBeInterestedIn h1 {
+  font-size: 2rem;
+}
+
+.youMayBeInterestedIn ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.youMayBeInterestedIn li {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  animation-delay: var(--animation-delay);
+}
+
+.youMayBeInterestedIn li:hover {
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

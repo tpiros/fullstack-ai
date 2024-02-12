@@ -1,0 +1,20 @@
+{
+  "name": "0x-qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@langchain/openai": "^0.0.10",
+    "langchain": "^0.1.1",
+    "pdf-parse": "^1.1.1",
+    "youtube-transcript": "^1.0.6",
+    "youtubei.js": "^5.8.0"
+  }
+}

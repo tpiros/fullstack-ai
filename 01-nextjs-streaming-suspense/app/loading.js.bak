@@ -1,0 +1,6 @@
+const Loading = () => (
+  <section>
+    <h1>Page is loading</h1>
+  </section>
+);
+export default Loading;
